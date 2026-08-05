@@ -6,12 +6,13 @@ body {
 
 h1 {
   text-align: center;
+  font-family: Garamond, serif;
 }
 
-h1, h2, p, a {
+h2, p, a {
   margin: 10px;
   color: #003049;
-  font-family: Tahoma, sans-serif;
+  font-family: Garamond, serif;
 }
 
 header {
