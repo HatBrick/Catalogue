@@ -14,6 +14,12 @@ h1, h2, p, a {
   font-family: Tahoma, sans-serif;
 }
 
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #fcbf49;
+}
+
 nav {
   list-style-type: none;
   margin: 0;
