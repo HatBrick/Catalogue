@@ -6,7 +6,8 @@ body {
 
 h1 {
   text-align: center;
-  font-family: Garamond, serif;
+  color: #d62828;
+  margin: 0;
 }
 
 h2, p, a {
@@ -18,6 +19,7 @@ h2, p, a {
 header {
   margin: 0;
   padding: 0;
+  magin-top: 10;
   background-color: #fcbf49;
 }
 
