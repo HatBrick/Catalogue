@@ -18,6 +18,6 @@ nav li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+nav li a:hover {
   background-color: #111111;
 }
