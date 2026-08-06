@@ -16,6 +16,13 @@ h2, p {
   font-family: Garamond, serif;
 }
 
+img {
+  max-width: 200;
+  display: inline;
+  float: left;
+  margin: 20;
+}
+
 header {
   margin: 0;
   padding: 0;
