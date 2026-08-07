@@ -10,7 +10,7 @@ h1 {
   margin: 0;
 }
 
-h2, h3, p, li {
+h2, h3, p, p li {
   margin: 10;
   color: #003049;
   font-family: Garamond, serif;
