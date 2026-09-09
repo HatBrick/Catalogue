@@ -10,16 +10,20 @@ h1 {
   margin: 0;
 }
 
-h2, h3, p {
+h2, h3, p, .bodyText {
   margin: 10;
   color: #003049;
   font-family: Garamond, serif;
 }
 
-.bodyText {
-  margin: 10;
-  color: #003049;
-  font-family: Garamond, serif;
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item h2 {
+  text-align: center;
 }
 
 img {
