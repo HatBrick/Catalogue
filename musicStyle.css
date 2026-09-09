@@ -16,16 +16,6 @@ h2, h3, p, .bodyText {
   font-family: Garamond, serif;
 }
 
-div.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-div.gallery-item h2 {
-  text-align: center;
-}
-
 img {
   max-width: 200;
   display: inline;
@@ -64,6 +54,28 @@ nav li a:hover {
   background-color: #f77f00;
 }
 
+/*Gallery Style*/
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  width: 200px;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item h2 {
+  text-align: center;
+}
+
+/*JS Modal Style*/
 dialog {
   border-radius: 10px;
   background: white;
