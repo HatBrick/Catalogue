@@ -1,5 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eae2b7;
+}
+
+h1 {
+  text-align: center;
+  color: #d62828;
+  margin: 0;
+}
+
+h2, h3, p {
+  margin: 10;
+  color: #003049;
+  font-family: Garamond, serif;
+}
+
+.bodyText {
+  margin: 10;
+  color: #003049;
+  font-family: Garamond, serif;
+}
+
 img {
-  cursor: zoom-in;  
+  max-width: 200;
+  display: inline;
+  float: left;
+  margin: 20;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  padding-top: 10;
+  background-color: #fcbf49;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fcbf49;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #d62828;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #f77f00;
 }
 
 dialog {
