@@ -3,9 +3,8 @@ if (isDesktop) {
   const images = document.querySelectorAll("img");
   const dialog = document.createElement("dialog");
   const img = document.createElement("img");
-
+  
   dialog.appendChild(img);
-  dialog.appendChild(close);
   document.body.appendChild(dialog);
 
   images.forEach((image) => {
