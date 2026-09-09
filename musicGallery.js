@@ -3,10 +3,6 @@ if (isDesktop) {
   const images = document.querySelectorAll("img");
   const dialog = document.createElement("dialog");
   const img = document.createElement("img");
-  const close = document.createElement("button");
-
-  close.textContent = "click here to close or hit 'esc'";
-  close.addEventListener("click", () => dialog.close());
 
   dialog.appendChild(img);
   dialog.appendChild(close);
