@@ -79,6 +79,14 @@ div.gallery-item h2 {
   font-size: 18;
 }
 
+div.gallery-item h3 {
+  text-align: center;
+  margin: 0;
+  margin-left: 35;
+  font-size: 18;
+  font-weight:100;
+}
+
 /*JS Modal Style*/
 dialog {
   border-radius: 10px;
