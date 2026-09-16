@@ -69,10 +69,14 @@ div.gallery-item {
 div.gallery-item img {
   width: 100%;
   height: auto;
+  margin-bottom: 10;
 }
 
 div.gallery-item h2 {
   text-align: center;
+  margin: 0;
+  margin-left: 35;
+  font-size: 18;
 }
 
 /*JS Modal Style*/
