@@ -9,8 +9,9 @@ if (isDesktop) {
 
   images.forEach((image) => {
     image.addEventListener("click", () => {
-      img.src = image.src;
-      dialog.showModal();
+      image.style.borderImage = "linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1";
+      image.style.borderWidth = "4px";
+      image.style.borderStyle = "solid";
     });
   });
 
