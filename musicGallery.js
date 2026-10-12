@@ -3,15 +3,17 @@ if (isDesktop) {
   const images = document.querySelectorAll("img");
   const dialog = document.createElement("dialog");
   const img = document.createElement("img");
-  
+  const text = document.createElement("p");
+
   dialog.appendChild(img);
+  dialog.appendChild(text);
   document.body.appendChild(dialog);
 
   images.forEach((image) => {
     image.addEventListener("click", () => {
-      image.style.borderImage = "linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1";
-      image.style.borderWidth = "4px";
-      image.style.borderStyle = "solid";
+      img.src = image.src;
+      text = image.id;
+      dialog.showModal();
     });
   });
 
