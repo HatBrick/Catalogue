@@ -12,7 +12,7 @@ if (isDesktop) {
   images.forEach((image) => {
     image.addEventListener("click", () => {
       img.src = image.src;
-      text = document.getElementById(image.class);
+      text = document.querySelector(image "> p");
       dialog.showModal();
     });
   });
