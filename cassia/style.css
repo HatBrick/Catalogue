@@ -71,8 +71,6 @@ nav {
 }
 
 nav > ul {
-    width:66%;
-    wrap
     margin: auto;
     line-height: 3rem;
 /* this line takes away the dot in front of the list items */
@@ -124,6 +122,7 @@ a:hover {
     padding: 1em;
     border: 2px solid var(--text-color);
     box-shadow: var(--accent-color) 4px 4px;
+   background-attachment:fixed;
 }
 
 #avatar {
