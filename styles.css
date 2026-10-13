@@ -4,13 +4,21 @@ body {
   background-color: #eae2b7;
 }
 
+table {
+  display: table;
+}
+
+col1 {
+  width:60%;
+}
+
 h1 {
   text-align: center;
   color: #d62828;
   margin: 0;
 }
 
-h2, h3, p {
+h2, h3, p, p.li {
   margin: 10;
   color: #003049;
   font-family: Garamond, serif;
