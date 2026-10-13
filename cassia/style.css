@@ -2,7 +2,7 @@
    replace them with anything you want! */
 :root {
     --header-bg: url('images/header.png');
-    --accent-color: #d62828;
+    --accent-color: #f77f00;
     --link-color: #6b2c39;
     --bg-color: #fcbf49;
     --bg-color2: #f3d180;
@@ -22,8 +22,8 @@
 }
 /* this is for when you select text on the page */
 ::selection {
-    background: var(--bg-color);
-    color: var(--accent-color);
+    background: var(--accent-color);
+    color: var(--bg-color);
 }
 
 body {
@@ -144,7 +144,6 @@ ul { list-style-type: "❤︎ "; }
     margin: 1em;
     background: var(--bg-color3);
     border: 2px solid var(--text-color);
-    box-shadow: var(--accent-color) 4px 4px;
     text-shadow: var(--bg-color3) 0 0 2px;
 }
 #bio p { margin: 1em; }
