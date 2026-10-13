@@ -2,12 +2,12 @@
    replace them with anything you want! */
 :root {
     --header-bg: url('images/header.png');
-    --accent-color: #DC7891;
-    --link-color: #DC7891;
-    --bg-color: #EFC9BE;
-    --bg-color2: #865A54;
-    --text-color: #4E1E1B;
-    --favorite-color: #FFE5E3;
+    --accent-color: #6b2c39;
+    --link-color: #d62828;
+    --bg-color: #f77f00;
+    --bg-color2: #eae2b7;
+    --text-color: #003049;
+    --favorite-color: #fcbf49;
     /* you can change the stripe colors easily from here */
     --stripe-color: #EFC9BE;
     --stripe-color2: #DFAD9F;
@@ -20,7 +20,7 @@
 * {
     color: var(--text-color);
 /* change the font here, it's set up to all use the same one */
-    font-family: monospace;
+    font-family: Garamond, serif;
     border-radius: 1em;
 }
 /* this is for when you select text on the page */
@@ -120,8 +120,7 @@ ul { list-style-type: "❤︎ "; }
     /* made the stripe bg with a generator:
     https://stripesgenerator.com/
      */
-    background-image: linear-gradient(45deg, var(--stripe-color) 25%, var(--stripe-color2) 25%, var(--stripe-color2) 50%, var(--stripe-color) 50%, var(--stripe-color) 75%, var(--stripe-color2) 75%, var(--stripe-color2) 100%);
-    background-size: 65.05px 65.05px;
+    background-color: var(--favorite-color);
     min-width: 220px;
     margin: 1em;
     padding: 1em;
