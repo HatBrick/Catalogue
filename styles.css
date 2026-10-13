@@ -4,11 +4,11 @@ body {
   background-color: #eae2b7;
 }
 
-table {
+.table {
   display: table;
 }
 
-col1 {
+.col1 {
   width:60%;
 }
 
