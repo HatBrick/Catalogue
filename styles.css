@@ -27,7 +27,7 @@ h2, h3, p, li {
   font-family: Garamond, serif;
 }
 
-p {
+p, li {
   margin-left: 20;
 }
 
