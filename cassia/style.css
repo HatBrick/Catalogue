@@ -2,15 +2,12 @@
    replace them with anything you want! */
 :root {
     --header-bg: url('images/header.png');
-    --accent-color: #6b2c39;
-    --link-color: #d62828;
+    --accent-color: #d62828;
+    --link-color: #6b2c39;
     --bg-color: #f77f00;
     --bg-color2: #eae2b7;
     --text-color: #003049;
     --favorite-color: #fcbf49;
-    /* you can change the stripe colors easily from here */
-    --stripe-color: #EFC9BE;
-    --stripe-color2: #DFAD9F;
 }
 /* you can get hex codes from sites like this:
    https://palettes.shecodes.io/
@@ -120,7 +117,7 @@ ul { list-style-type: "❤︎ "; }
     /* made the stripe bg with a generator:
     https://stripesgenerator.com/
      */
-    background-color: var(--favorite-color);
+    background-color: #f3d180;
     min-width: 220px;
     margin: 1em;
     padding: 1em;
