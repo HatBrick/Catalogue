@@ -122,7 +122,8 @@ a:hover {
     padding: 1em;
     border: 2px solid var(--text-color);
     box-shadow: var(--accent-color) 4px 4px;
-   background-attachment:fixed;
+   position:sticky;
+   top:15px;
 }
 
 #avatar {
