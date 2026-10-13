@@ -54,6 +54,7 @@ nav {
 
 nav li {
   float: left;
+  margin: 0;
 }
 
 nav li a {
