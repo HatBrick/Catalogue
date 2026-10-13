@@ -4,10 +4,10 @@
     --header-bg: url('images/header.png');
     --accent-color: #d62828;
     --link-color: #6b2c39;
-    --bg-color: #f77f00;
-    --bg-color2: #eae2b7;
+    --bg-color: #fcbf49;
+    --bg-color2: #f3d180;
+    --bg-color3: #eae2b7;
     --text-color: #003049;
-    --favorite-color: #fcbf49;
 }
 /* you can get hex codes from sites like this:
    https://palettes.shecodes.io/
@@ -22,12 +22,12 @@
 }
 /* this is for when you select text on the page */
 ::selection {
-    background: var(--accent-color);
-    color: var(--bg-color);
+    background: var(--bg-color);
+    color: var(--accent-color);
 }
 
 body {
-    background-color: var(--bg-color2);
+    background-color: var(--bg-color3);
     margin: 0;
 }
 /* i think having better line spacing helps text to be more readable, but you can remove it if you want */
@@ -61,7 +61,7 @@ header > h1 {
     text-align: center;
     background-color: var(--bg-color);
     border: 2px solid var(--text-color);
-    text-shadow: var(--bg-color2) 1px 1px 3px;
+    text-shadow: var(--bg-color3) 1px 1px 3px;
 }
 
 nav {
@@ -85,7 +85,7 @@ nav li {
     text-align: center;
 }
 nav li > a {
-    background-color: var(--favorite-color);
+    background-color: var(--bg-color);
     box-shadow: var(--accent-color) 4px 4px;
     padding: .5em 3em;
 /* this takes away the link underline */
@@ -117,7 +117,7 @@ ul { list-style-type: "❤︎ "; }
     /* made the stripe bg with a generator:
     https://stripesgenerator.com/
      */
-    background-color: #f3d180;
+    background-color: var(--bg-color2);
     min-width: 220px;
     margin: 1em;
     padding: 1em;
@@ -142,7 +142,7 @@ ul { list-style-type: "❤︎ "; }
 
 #bio {
     margin: 1em;
-    background: var(--favorite-color);
+    background: var(--bg-color);
     border: 2px solid var(--text-color);
     box-shadow: var(--accent-color) 4px 4px;
     text-shadow: var(--bg-color2) 0 0 2px;
@@ -156,12 +156,12 @@ ul { list-style-type: "❤︎ "; }
 }
 
 main {
-    background-color: var(--favorite-color);
+    background-color: var(--bg-color2);
     padding: 1em 2em;
     margin: 1em;
     border: 2px solid var(--text-color);
     box-shadow: var(--accent-color) 4px 4px;
-    text-shadow: var(--bg-color2) 1px 1px 3px;
+    text-shadow: var(--link-color) 1px 1px 3px;
 }
 
 main > h1,
@@ -170,7 +170,7 @@ main > h3 {
     background-color: var(--bg-color);
     border-radius: .4em;
     padding: .2em .5em;
-    text-shadow: var(--bg-color2) 1px 1px 3px;
+    text-shadow: var(--bg-color3) 1px 1px 3px;
 }
 
 /* a class for centering text and images */
@@ -178,7 +178,7 @@ main > h3 {
 
 footer {
     background-color: var(--bg-color);
-    text-shadow: var(--bg-color2) 1px 1px 3px;
+    text-shadow: var(--bg-color3) 1px 1px 3px;
     text-align: center;
     font-size: small;
     padding: 1em;
