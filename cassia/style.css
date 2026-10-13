@@ -124,6 +124,7 @@ a:hover {
     box-shadow: var(--accent-color) 4px 4px;
    position:sticky;
    top:15px;
+   max-height:fit-content;
 }
 
 #avatar {
@@ -151,7 +152,7 @@ a:hover {
 
 #content {
     display: flex;
-    max-width: 80%;
+    max-width: 66%;
     margin: auto;
 }
 
