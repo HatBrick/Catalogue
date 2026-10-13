@@ -23,7 +23,7 @@
 /* this is for when you select text on the page */
 ::selection {
     background: var(--accent-color);
-    color: var(--bg-color);
+    color: var(--bg-color3);
 }
 
 body {
@@ -111,7 +111,7 @@ a:hover {
 }
 
 /* you can change this to anything you want :) */
-ul { list-style-type: "❤︎ "; }
+/*ul { list-style-type: "❤︎ "; }*/
 
 #sidebar {
     /* made the stripe bg with a generator:
