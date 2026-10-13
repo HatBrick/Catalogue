@@ -142,10 +142,10 @@ ul { list-style-type: "❤︎ "; }
 
 #bio {
     margin: 1em;
-    background: var(--bg-color);
+    background: var(--bg-color3);
     border: 2px solid var(--text-color);
     box-shadow: var(--accent-color) 4px 4px;
-    text-shadow: var(--bg-color2) 0 0 2px;
+    text-shadow: var(--bg-color3) 0 0 2px;
 }
 #bio p { margin: 1em; }
 
@@ -161,7 +161,7 @@ main {
     margin: 1em;
     border: 2px solid var(--text-color);
     box-shadow: var(--accent-color) 4px 4px;
-    text-shadow: var(--link-color) 1px 1px 3px;
+    text-shadow: var(--bg-color3) 1px 1px 3px;
 }
 
 main > h1,
