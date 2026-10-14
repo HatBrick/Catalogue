@@ -183,7 +183,7 @@ main > h3 {
     text-shadow: var(--bg-color3) 1px 1px 3px;
 }
 
-main img, #bio img {
+#content img {
    max-width:200px;
 }
 
