@@ -26,6 +26,10 @@
     color: var(--bg-color3);
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: var(--bg-color3);
     margin: 0;
@@ -177,9 +181,12 @@ main {
     overflow: auto;
 }
 
-main::-webkit-scrollbar {
+main::-webkit-scrollbar-thumb {
    scrollbar-color:var(--accent-color);
-   background:transparent;
+}
+
+main::-webkit-scrollbar-track {
+  background:transparent;
 }
 
 main > h1,
