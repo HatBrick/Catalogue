@@ -173,6 +173,13 @@ main {
     border: 2px solid var(--text-color);
     box-shadow: var(--accent-color) 4px 4px;
     text-shadow: var(--bg-color3) 1px 1px 3px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+main::-webkit-scrollbar {
+   scrollbar-color:var(--accent-color);
+   background:transparent;
 }
 
 main > h1,
