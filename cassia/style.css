@@ -183,10 +183,6 @@ main > h3 {
     text-shadow: var(--bg-color3) 1px 1px 3px;
 }
 
-#content img {
-   max-width:200px;
-}
-
 /* a class for centering text and images */
 .center { text-align: center; }
 
