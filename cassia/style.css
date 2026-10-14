@@ -45,9 +45,15 @@ header {
     /*max-width: 980px;*/
     margin: 0 auto;
     border-top: 4px solid var(--text-color);
-    border-bottom: 4px solid var(--text-color);
+    border-bottom: 2px solid var(--text-color);
 /* i have a default border-radius set, but i didn't want rounded corners on this element */
     border-radius: 0;
+}
+
+marquee {
+   background-color: white;
+   border-radius: 0;
+   border-bottom: 1px solid var(--text-color);
 }
 
 /* this is your site title displayed at the top of the page */
@@ -113,15 +119,8 @@ a:hover {
 /*ul { list-style-type: "❤︎ "; }*/
 
 #side-nav {
-   background-color: var(--bg-color2);
-    width:15%;
-    margin: 1em;
-    padding: 1em;
-    border: 2px solid var(--text-color);
-    box-shadow: var(--accent-color) 4px 4px;
    position:sticky;
    top:15px;
-   max-height:fit-content;
 }
 
 #sidebar {
@@ -208,6 +207,9 @@ footer {
        justify-content:center;
        width:100%;
     }
+   #side-nav {
+      position:unset;
+   }
     #sidebar {
         width: 100%;
         display: flex;
