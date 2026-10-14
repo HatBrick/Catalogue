@@ -112,21 +112,9 @@ a:hover {
 /* you can change this to anything you want :) */
 /*ul { list-style-type: "❤︎ "; }*/
 
-#sideNave-left {
+#side-nav {
    background-color: var(--bg-color2);
-    min-width: 175px;
-    margin: 1em;
-    padding: 1em;
-    border: 2px solid var(--text-color);
-    box-shadow: var(--accent-color) 4px 4px;
-   position:sticky;
-   top:15px;
-   max-height:fit-content;
-}
-
-#sideNave-right {
-   background-color: var(--bg-color2);
-    min-width: 175px;
+    width:15%;
     margin: 1em;
     padding: 1em;
     border: 2px solid var(--text-color);
@@ -146,8 +134,6 @@ a:hover {
     padding: 1em;
     border: 2px solid var(--text-color);
     box-shadow: var(--accent-color) 4px 4px;
-   position:sticky;
-   top:15px;
    max-height:fit-content;
 }
 
@@ -176,7 +162,7 @@ a:hover {
 
 #content {
     display: flex;
-    max-width: 66%;
+    max-width: 100%;
     margin: auto;
 }
 
