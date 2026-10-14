@@ -193,16 +193,18 @@ footer {
 
 /* these are the mobile styles! */
 @media only screen and (max-width: 800px) {
-    /*#content {
+    #content {
         flex-wrap: wrap;
-    }*/
+       width:100%;
+    }
     #sidebar {
-        width: 30%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         border: none;
+       position: unset;
     }
     header {min-height: 160px;}
     header > h1 { 
@@ -216,9 +218,9 @@ footer {
         flex-direction: row;
     }
     #avatar {margin: 0 1em;}
-    #bio {width: 50%;}
+    #bio {width: 100%;}
     main {
-       width:60%;
+       width:100%;
        margin: 0 1em;
     }
     #sidebar ul {   
