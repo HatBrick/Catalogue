@@ -193,11 +193,11 @@ footer {
 
 /* these are the mobile styles! */
 @media only screen and (max-width: 800px) {
-    #content {
+    /*#content {
         flex-wrap: wrap;
-    }
+    }*/
     #sidebar {
-        width: 100%;
+        width: 30%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -217,7 +217,10 @@ footer {
     }
     #avatar {margin: 0 1em;}
     #bio {width: 50%;}
-    main {margin: 0 1em;}
+    main {
+       width:60%;
+       margin: 0 1em;
+    }
     #sidebar ul {   
         margin: 0 1em;
         display: flex;
