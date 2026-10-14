@@ -121,6 +121,7 @@ a:hover {
 #side-nav {
    position:sticky;
    top:15px;
+   max-height:fit-content;
 }
 
 #sidebar {
