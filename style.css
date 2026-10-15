@@ -40,7 +40,7 @@ p {line-height: 1.5em;}
 
 header {
     background-color: var(--accent-color);
-   text-color:
+   text-color: var(--bold-color);
 /* you can add the image url in :root (at the top) if you want */
     background: var(--header-bg);
     background-size: 100%;
