@@ -40,7 +40,6 @@ p {line-height: 1.5em;}
 
 header {
     background-color: var(--accent-color);
-   text-color: var(--bold-color);
 /* you can add the image url in :root (at the top) if you want */
     background: var(--header-bg);
     background-size: 100%;
@@ -71,6 +70,7 @@ header > h1 {
     font-size: 4em;
 /* you can change the text-align to center or right if you want it placed differently */
     text-align: center;
+    color: var(--bold-color);
     background-color: var(--bg-color);
     border: 2px solid var(--text-color);
     text-shadow: var(--bg-color3) 1px 1px 3px;
