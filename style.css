@@ -110,9 +110,10 @@ a {
     text-shadow: var(--bg-color) 1px 1px 2px;
     font-weight: bold;
     transition: background-color 400ms ease-out;
+   text-decoration:none;
 }
 a:visited {
-    color: var(--text-color);
+    color: var(--link-color);
 }
 a:hover {
     background-color: var(--accent-color);
