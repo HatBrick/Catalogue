@@ -12,21 +12,18 @@ if (isDesktop) {
   images.forEach((image) => {
     image.addEventListener("click", () => {
       img.src = image.src;
-      img.style.width = 400px;
       //text = document.querySelector(image "> p");
-      dialog.showModal();
     });
   });
 
   dialog.addEventListener("click", (event) => {
-    const dialogDimensions = dialog.getBoundingClientRect();
-    if (
-      event.clientX < dialogDimensions.left ||
-      event.clientX > dialogDimensions.right ||
-      event.clientY < dialogDimensions.top ||
-      event.clientY > dialogDimensions.bottom
-    ) {
-      dialog.close();
+    images.forEach((image) => {
+      if(image.src != img.src) {
+        if(image.style.display == "hidden") {
+          image.style.display = "inline";
+        } else {
+          image.style.display = "hidden";
+        }
+      }
     }
-  });
 }
