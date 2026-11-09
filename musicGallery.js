@@ -12,7 +12,6 @@ if (isDesktop) {
   images.forEach((image) => {
     image.addEventListener("click", () => {
       img.src = image.src;
-      //text = document.querySelector(image "> p");
     });
   });
 
