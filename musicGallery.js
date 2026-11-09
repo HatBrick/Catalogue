@@ -16,6 +16,8 @@ if (isDesktop) {
   });
 
   dialog.addEventListener("click", (event) => {
+    console.log("Hi!");
+    console.log(this);
     images.forEach((image) => {
       if(image.src != img.src) {
         if(image.style.display == "hidden") {
