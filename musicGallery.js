@@ -24,6 +24,6 @@ if (isDesktop) {
           image.style.display = "hidden";
         }
       }
-    }
+    });
   }
 }
