@@ -11,6 +11,7 @@ if (isDesktop) {
 
   images.forEach((image) => {
     image.addEventListener("click", () => {
+      //hi
       img.src = image.src;
     });
   });
