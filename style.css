@@ -201,7 +201,7 @@ main > h3 {
 }
 
 main img {
-   max-width:200px;
+   max-width:186px;
 }
 
 /* a class for centering text and images */
@@ -250,7 +250,7 @@ footer {
     #avatar {margin: 0 1em;}
     #bio {width: 100%;}
     main {margin: 0 1em;}
-    img {max-width: 150px;}
+    img {width:49%;}
     #sidebar ul {   
         margin: 0 1em;
         display: flex;
