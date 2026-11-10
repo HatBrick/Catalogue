@@ -250,6 +250,7 @@ footer {
     #avatar {margin: 0 1em;}
     #bio {width: 100%;}
     main {margin: 0 1em;}
+    img {max-width: 150px;}
     #sidebar ul {   
         margin: 0 1em;
         display: flex;
