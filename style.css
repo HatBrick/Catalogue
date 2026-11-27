@@ -98,7 +98,7 @@ nav > ul {
 }
 
 nav h2 {
-   background-color: var(--bg-color);
+   background-color: var(--accent-color);
    border-radius: .4em;
    padding: .2em .5em;
    text-shadow: var(--bg-color3) 1px 1px 3px;
